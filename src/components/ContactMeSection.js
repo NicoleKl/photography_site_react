@@ -48,7 +48,7 @@ const LandingSection = () => {
       type: Yup.string()
         .required('required'),
       comment: Yup.string()
-        .min(25, 'Too Short!')
+        .min(5, 'Too Short!')
         .max(200, 'Too Long!')
         .required('Required'),
     }),
